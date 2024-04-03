@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDED0C5F2BBAB272009F03B1 /* GOSI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDED0C5E2BBAB272009F03B1 /* GOSI Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDED0C642BBAB272009F03B1 /* GOSIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C632BBAB272009F03B1 /* GOSIApp.swift */; };
+		FDED0C662BBAB272009F03B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C652BBAB272009F03B1 /* ContentView.swift */; };
+		FDED0C682BBAB274009F03B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDED0C672BBAB274009F03B1 /* Assets.xcassets */; };
+		FDED0C6B2BBAB274009F03B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDED0C6A2BBAB274009F03B1 /* Preview Assets.xcassets */; };
+		FDED0C752BBAB274009F03B1 /* GOSI_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C742BBAB274009F03B1 /* GOSI_Watch_AppTests.swift */; };
+		FDED0C7F2BBAB274009F03B1 /* GOSI_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C7E2BBAB274009F03B1 /* GOSI_Watch_AppUITests.swift */; };
+		FDED0C812BBAB274009F03B1 /* GOSI_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C802BBAB274009F03B1 /* GOSI_Watch_AppUITestsLaunchTests.swift */; };
+		FDF465F82BBD4E9B00FEFD66 /* Locationview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF465F62BBD4E9B00FEFD66 /* Locationview.swift */; };
+		FDF465F92BBD4E9B00FEFD66 /* EmergencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF465F72BBD4E9B00FEFD66 /* EmergencyView.swift */; };
+		FDF465FB2BBD4EA400FEFD66 /* NotifyFamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF465FA2BBD4EA400FEFD66 /* NotifyFamilyView.swift */; };
+		FDF465FD2BBD503000FEFD66 /* sharelocationview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF465FC2BBD503000FEFD66 /* sharelocationview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDED0C602BBAB272009F03B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDED0C522BBAB272009F03B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDED0C5D2BBAB272009F03B1;
+			remoteInfo = "GOSI Watch App";
+		};
+		FDED0C712BBAB274009F03B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDED0C522BBAB272009F03B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDED0C5D2BBAB272009F03B1;
+			remoteInfo = "GOSI Watch App";
+		};
+		FDED0C7B2BBAB274009F03B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDED0C522BBAB272009F03B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDED0C5D2BBAB272009F03B1;
+			remoteInfo = "GOSI Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDED0C872BBAB274009F03B1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FDED0C5F2BBAB272009F03B1 /* GOSI Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDED0C582BBAB272009F03B1 /* GOSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOSI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED0C5E2BBAB272009F03B1 /* GOSI Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOSI Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED0C632BBAB272009F03B1 /* GOSIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOSIApp.swift; sourceTree = "<group>"; };
+		FDED0C652BBAB272009F03B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDED0C672BBAB274009F03B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDED0C6A2BBAB274009F03B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDED0C702BBAB274009F03B1 /* GOSI Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOSI Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED0C742BBAB274009F03B1 /* GOSI_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOSI_Watch_AppTests.swift; sourceTree = "<group>"; };
+		FDED0C7A2BBAB274009F03B1 /* GOSI Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOSI Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDED0C7E2BBAB274009F03B1 /* GOSI_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOSI_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		FDED0C802BBAB274009F03B1 /* GOSI_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOSI_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDF465F62BBD4E9B00FEFD66 /* Locationview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locationview.swift; sourceTree = "<group>"; };
+		FDF465F72BBD4E9B00FEFD66 /* EmergencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyView.swift; sourceTree = "<group>"; };
+		FDF465FA2BBD4EA400FEFD66 /* NotifyFamilyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifyFamilyView.swift; sourceTree = "<group>"; };
+		FDF465FC2BBD503000FEFD66 /* sharelocationview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharelocationview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDED0C5B2BBAB272009F03B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6D2BBAB274009F03B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C772BBAB274009F03B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDED0C512BBAB272009F03B1 = {
+			isa = PBXGroup;
+			children = (
+				FDF465FA2BBD4EA400FEFD66 /* NotifyFamilyView.swift */,
+				FDED0C622BBAB272009F03B1 /* GOSI Watch App */,
+				FDED0C732BBAB274009F03B1 /* GOSI Watch AppTests */,
+				FDED0C7D2BBAB274009F03B1 /* GOSI Watch AppUITests */,
+				FDED0C592BBAB272009F03B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDED0C592BBAB272009F03B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C582BBAB272009F03B1 /* GOSI.app */,
+				FDED0C5E2BBAB272009F03B1 /* GOSI Watch App.app */,
+				FDED0C702BBAB274009F03B1 /* GOSI Watch AppTests.xctest */,
+				FDED0C7A2BBAB274009F03B1 /* GOSI Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDED0C622BBAB272009F03B1 /* GOSI Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C632BBAB272009F03B1 /* GOSIApp.swift */,
+				FDF465FC2BBD503000FEFD66 /* sharelocationview.swift */,
+				FDED0C652BBAB272009F03B1 /* ContentView.swift */,
+				FDF465F72BBD4E9B00FEFD66 /* EmergencyView.swift */,
+				FDF465F62BBD4E9B00FEFD66 /* Locationview.swift */,
+				FDED0C672BBAB274009F03B1 /* Assets.xcassets */,
+				FDED0C692BBAB274009F03B1 /* Preview Content */,
+			);
+			path = "GOSI Watch App";
+			sourceTree = "<group>";
+		};
+		FDED0C692BBAB274009F03B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C6A2BBAB274009F03B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDED0C732BBAB274009F03B1 /* GOSI Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C742BBAB274009F03B1 /* GOSI_Watch_AppTests.swift */,
+			);
+			path = "GOSI Watch AppTests";
+			sourceTree = "<group>";
+		};
+		FDED0C7D2BBAB274009F03B1 /* GOSI Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDED0C7E2BBAB274009F03B1 /* GOSI_Watch_AppUITests.swift */,
+				FDED0C802BBAB274009F03B1 /* GOSI_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "GOSI Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDED0C572BBAB272009F03B1 /* GOSI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED0C882BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI" */;
+			buildPhases = (
+				FDED0C562BBAB272009F03B1 /* Resources */,
+				FDED0C872BBAB274009F03B1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDED0C612BBAB272009F03B1 /* PBXTargetDependency */,
+			);
+			name = GOSI;
+			productName = GOSI;
+			productReference = FDED0C582BBAB272009F03B1 /* GOSI.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FDED0C5D2BBAB272009F03B1 /* GOSI Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED0C842BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI Watch App" */;
+			buildPhases = (
+				FDED0C5A2BBAB272009F03B1 /* Sources */,
+				FDED0C5B2BBAB272009F03B1 /* Frameworks */,
+				FDED0C5C2BBAB272009F03B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GOSI Watch App";
+			productName = "GOSI Watch App";
+			productReference = FDED0C5E2BBAB272009F03B1 /* GOSI Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDED0C6F2BBAB274009F03B1 /* GOSI Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED0C8B2BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI Watch AppTests" */;
+			buildPhases = (
+				FDED0C6C2BBAB274009F03B1 /* Sources */,
+				FDED0C6D2BBAB274009F03B1 /* Frameworks */,
+				FDED0C6E2BBAB274009F03B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDED0C722BBAB274009F03B1 /* PBXTargetDependency */,
+			);
+			name = "GOSI Watch AppTests";
+			productName = "GOSI Watch AppTests";
+			productReference = FDED0C702BBAB274009F03B1 /* GOSI Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDED0C792BBAB274009F03B1 /* GOSI Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDED0C8E2BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI Watch AppUITests" */;
+			buildPhases = (
+				FDED0C762BBAB274009F03B1 /* Sources */,
+				FDED0C772BBAB274009F03B1 /* Frameworks */,
+				FDED0C782BBAB274009F03B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDED0C7C2BBAB274009F03B1 /* PBXTargetDependency */,
+			);
+			name = "GOSI Watch AppUITests";
+			productName = "GOSI Watch AppUITests";
+			productReference = FDED0C7A2BBAB274009F03B1 /* GOSI Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDED0C522BBAB272009F03B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FDED0C572BBAB272009F03B1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FDED0C5D2BBAB272009F03B1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FDED0C6F2BBAB274009F03B1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FDED0C5D2BBAB272009F03B1;
+					};
+					FDED0C792BBAB274009F03B1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FDED0C5D2BBAB272009F03B1;
+					};
+				};
+			};
+			buildConfigurationList = FDED0C552BBAB272009F03B1 /* Build configuration list for PBXProject "GOSI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDED0C512BBAB272009F03B1;
+			productRefGroup = FDED0C592BBAB272009F03B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDED0C572BBAB272009F03B1 /* GOSI */,
+				FDED0C5D2BBAB272009F03B1 /* GOSI Watch App */,
+				FDED0C6F2BBAB274009F03B1 /* GOSI Watch AppTests */,
+				FDED0C792BBAB274009F03B1 /* GOSI Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDED0C562BBAB272009F03B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C5C2BBAB272009F03B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED0C6B2BBAB274009F03B1 /* Preview Assets.xcassets in Resources */,
+				FDED0C682BBAB274009F03B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6E2BBAB274009F03B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C782BBAB274009F03B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDED0C5A2BBAB272009F03B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF465F92BBD4E9B00FEFD66 /* EmergencyView.swift in Sources */,
+				FDF465FD2BBD503000FEFD66 /* sharelocationview.swift in Sources */,
+				FDF465FB2BBD4EA400FEFD66 /* NotifyFamilyView.swift in Sources */,
+				FDF465F82BBD4E9B00FEFD66 /* Locationview.swift in Sources */,
+				FDED0C662BBAB272009F03B1 /* ContentView.swift in Sources */,
+				FDED0C642BBAB272009F03B1 /* GOSIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C6C2BBAB274009F03B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED0C752BBAB274009F03B1 /* GOSI_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDED0C762BBAB274009F03B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDED0C812BBAB274009F03B1 /* GOSI_Watch_AppUITestsLaunchTests.swift in Sources */,
+				FDED0C7F2BBAB274009F03B1 /* GOSI_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDED0C612BBAB272009F03B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDED0C5D2BBAB272009F03B1 /* GOSI Watch App */;
+			targetProxy = FDED0C602BBAB272009F03B1 /* PBXContainerItemProxy */;
+		};
+		FDED0C722BBAB274009F03B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDED0C5D2BBAB272009F03B1 /* GOSI Watch App */;
+			targetProxy = FDED0C712BBAB274009F03B1 /* PBXContainerItemProxy */;
+		};
+		FDED0C7C2BBAB274009F03B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDED0C5D2BBAB272009F03B1 /* GOSI Watch App */;
+			targetProxy = FDED0C7B2BBAB274009F03B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDED0C822BBAB274009F03B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDED0C832BBAB274009F03B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FDED0C852BBAB274009F03B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOSI Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GOSI;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.GOSI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		FDED0C862BBAB274009F03B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOSI Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GOSI;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.GOSI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		FDED0C892BBAB274009F03B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = GOSI;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.GOSI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDED0C8A2BBAB274009F03B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = GOSI;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moe.GOSI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDED0C8C2BBAB274009F03B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.GOSI-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOSI Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOSI Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		FDED0C8D2BBAB274009F03B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.GOSI-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOSI Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GOSI Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		FDED0C8F2BBAB274009F03B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.GOSI-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GOSI Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		FDED0C902BBAB274009F03B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moe.GOSI-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "GOSI Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDED0C552BBAB272009F03B1 /* Build configuration list for PBXProject "GOSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C822BBAB274009F03B1 /* Debug */,
+				FDED0C832BBAB274009F03B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED0C842BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C852BBAB274009F03B1 /* Debug */,
+				FDED0C862BBAB274009F03B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED0C882BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C892BBAB274009F03B1 /* Debug */,
+				FDED0C8A2BBAB274009F03B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED0C8B2BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C8C2BBAB274009F03B1 /* Debug */,
+				FDED0C8D2BBAB274009F03B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDED0C8E2BBAB274009F03B1 /* Build configuration list for PBXNativeTarget "GOSI Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDED0C8F2BBAB274009F03B1 /* Debug */,
+				FDED0C902BBAB274009F03B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDED0C522BBAB272009F03B1 /* Project object */;
+}
