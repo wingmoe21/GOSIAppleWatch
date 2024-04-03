@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD58E1C02BBD7C3F000CC3AB /* id.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD58E1BD2BBD7C3F000CC3AB /* id.jpeg */; };
+		FD58E1C12BBD7C3F000CC3AB /* taqdeer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD58E1BE2BBD7C3F000CC3AB /* taqdeer.jpg */; };
+		FD58E1C22BBD7C3F000CC3AB /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = FD58E1BF2BBD7C3F000CC3AB /* Contents.json */; };
+		FD58E1C42BBD7C47000CC3AB /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58E1C32BBD7C47000CC3AB /* homeView.swift */; };
 		FDED0C5F2BBAB272009F03B1 /* GOSI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDED0C5E2BBAB272009F03B1 /* GOSI Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FDED0C642BBAB272009F03B1 /* GOSIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C632BBAB272009F03B1 /* GOSIApp.swift */; };
 		FDED0C662BBAB272009F03B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED0C652BBAB272009F03B1 /* ContentView.swift */; };
@@ -60,6 +64,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD58E1BD2BBD7C3F000CC3AB /* id.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = id.jpeg; path = Assets.xcassets/id.jpeg; sourceTree = SOURCE_ROOT; };
+		FD58E1BE2BBD7C3F000CC3AB /* taqdeer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taqdeer.jpg; path = Assets.xcassets/taqdeer.jpg; sourceTree = SOURCE_ROOT; };
+		FD58E1BF2BBD7C3F000CC3AB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = SOURCE_ROOT; };
+		FD58E1C32BBD7C47000CC3AB /* homeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = SOURCE_ROOT; };
 		FDED0C582BBAB272009F03B1 /* GOSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOSI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDED0C5E2BBAB272009F03B1 /* GOSI Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOSI Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDED0C632BBAB272009F03B1 /* GOSIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOSIApp.swift; sourceTree = "<group>"; };
@@ -133,6 +141,10 @@
 				FDF465F72BBD4E9B00FEFD66 /* EmergencyView.swift */,
 				FDF465F62BBD4E9B00FEFD66 /* Locationview.swift */,
 				FDED0C672BBAB274009F03B1 /* Assets.xcassets */,
+				FD58E1C32BBD7C47000CC3AB /* homeView.swift */,
+				FD58E1BF2BBD7C3F000CC3AB /* Contents.json */,
+				FD58E1BD2BBD7C3F000CC3AB /* id.jpeg */,
+				FD58E1BE2BBD7C3F000CC3AB /* taqdeer.jpg */,
 				FDED0C692BBAB274009F03B1 /* Preview Content */,
 			);
 			path = "GOSI Watch App";
@@ -295,6 +307,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD58E1C22BBD7C3F000CC3AB /* Contents.json in Resources */,
+				FD58E1C12BBD7C3F000CC3AB /* taqdeer.jpg in Resources */,
+				FD58E1C02BBD7C3F000CC3AB /* id.jpeg in Resources */,
 				FDED0C6B2BBAB274009F03B1 /* Preview Assets.xcassets in Resources */,
 				FDED0C682BBAB274009F03B1 /* Assets.xcassets in Resources */,
 			);
@@ -323,6 +338,7 @@
 			files = (
 				FDF465F92BBD4E9B00FEFD66 /* EmergencyView.swift in Sources */,
 				FDF465FD2BBD503000FEFD66 /* sharelocationview.swift in Sources */,
+				FD58E1C42BBD7C47000CC3AB /* homeView.swift in Sources */,
 				FDF465FB2BBD4EA400FEFD66 /* NotifyFamilyView.swift in Sources */,
 				FDF465F82BBD4E9B00FEFD66 /* Locationview.swift in Sources */,
 				FDED0C662BBAB272009F03B1 /* ContentView.swift in Sources */,
