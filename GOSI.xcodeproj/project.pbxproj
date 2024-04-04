@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47F1AB792BBE9D8D00739467 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F1AB782BBE9D8D00739467 /* HexColors.swift */; };
 		FD58E1C02BBD7C3F000CC3AB /* id.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD58E1BD2BBD7C3F000CC3AB /* id.jpeg */; };
 		FD58E1C12BBD7C3F000CC3AB /* taqdeer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD58E1BE2BBD7C3F000CC3AB /* taqdeer.jpg */; };
 		FD58E1C22BBD7C3F000CC3AB /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = FD58E1BF2BBD7C3F000CC3AB /* Contents.json */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47F1AB782BBE9D8D00739467 /* HexColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColors.swift; sourceTree = "<group>"; };
 		FD58E1BD2BBD7C3F000CC3AB /* id.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = id.jpeg; path = Assets.xcassets/id.jpeg; sourceTree = SOURCE_ROOT; };
 		FD58E1BE2BBD7C3F000CC3AB /* taqdeer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taqdeer.jpg; path = Assets.xcassets/taqdeer.jpg; sourceTree = SOURCE_ROOT; };
 		FD58E1BF2BBD7C3F000CC3AB /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = SOURCE_ROOT; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				FDF465FA2BBD4EA400FEFD66 /* NotifyFamilyView.swift */,
+				47F1AB782BBE9D8D00739467 /* HexColors.swift */,
 				FDED0C622BBAB272009F03B1 /* GOSI Watch App */,
 				FDED0C732BBAB274009F03B1 /* GOSI Watch AppTests */,
 				FDED0C7D2BBAB274009F03B1 /* GOSI Watch AppUITests */,
@@ -337,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF465F92BBD4E9B00FEFD66 /* EmergencyView.swift in Sources */,
+				47F1AB792BBE9D8D00739467 /* HexColors.swift in Sources */,
 				FDF465FD2BBD503000FEFD66 /* sharelocationview.swift in Sources */,
 				FD58E1C42BBD7C47000CC3AB /* homeView.swift in Sources */,
 				FDF465FB2BBD4EA400FEFD66 /* NotifyFamilyView.swift in Sources */,

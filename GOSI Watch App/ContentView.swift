@@ -6,6 +6,7 @@
 //
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         
@@ -17,7 +18,7 @@ struct ContentView: View {
                         
                         ZStack{
                             Circle()
-                                .foregroundColor(.red)
+                                .foregroundColor(Color(hex:"#D94747"))
                                 .frame(width: 30, height: 30)
                             Text("sos").foregroundColor(.white)
                         }
@@ -31,19 +32,19 @@ struct ContentView: View {
                     HStack {
                         ZStack{
                             Circle()
-                                .foregroundColor(.green)
+                                .foregroundColor(Color(hex: "#00AE9A"))
                                 .frame(width: 30, height: 30)
                             Image(systemName: "bell")
                         }
                         Text("Notify Family").padding()
                     }
                 }
-                NavigationLink(destination: Locationview()) {
+                NavigationLink(destination: NotifyFamilyView()) {
                     
                     HStack {
                         ZStack{
                             Circle()
-                                .foregroundColor(.yellow)
+                                .foregroundColor(Color(hex: "#ABD02B"))
                                 .frame(width: 30, height: 30)
                             Image(systemName: "location.fill")
                         }

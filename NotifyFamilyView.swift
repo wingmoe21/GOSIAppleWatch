@@ -25,7 +25,7 @@ struct NotifyFamilyView: View {
                         Text("Back To Home")
                             .font(.headline)
                             .padding()
-                            .foregroundColor(.green)
+                            .foregroundColor(Color(hex:"#00AE9A"))
                             .cornerRadius(10)
                     }
                   
